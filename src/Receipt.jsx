@@ -1,6 +1,6 @@
 export default function Receipt(props) {
     console.log(props)
-    const { person , order, paid } = props
+    const { person, order, paid } = props
     return (
         <div className="person-card">
             <h1>{person}</h1>
@@ -16,4 +16,4 @@ export default function Receipt(props) {
             </div>
         </div>
     )
-}    
+}
